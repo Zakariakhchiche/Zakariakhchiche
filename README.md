@@ -34,3 +34,4 @@ SUEZ · TotalEnergies · Groupe SNCF
 Disponible pour des missions de Tech Lead IA/Data, de conception d'agents IA et d'industrialisation de POC d'IA générative (Paris ou hybride).
 
 [Mon profil Malt](https://www.malt.fr/profile/zakariakhchiche)
+[LinkedIn](https://www.linkedin.com/in/zakariakhchiche)
