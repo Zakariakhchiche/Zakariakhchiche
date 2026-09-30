@@ -18,7 +18,7 @@ J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en 
 
 ## Références
 
-SUEZ · TotalEnergies · Groupe SNCF
+SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (Stime) · Volvo Group · SAUR
 
 ## Stack
 
