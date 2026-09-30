@@ -4,6 +4,10 @@
 
 J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en production** : fiables, sécurisées et aux coûts maîtrisés.
 
+[![Carte des compétences](assets/carte-competences-zakaria-khchiche.png)](assets/carte-competences-zakaria-khchiche.png)
+
+📄 [Télécharger le carrousel (PDF, 6 slides)](assets/carrousel-linkedin-zakaria-khchiche.pdf)
+
 ## Ce que je fais
 
 - **Agents IA & IA générative** : conception d'agents et d'assistants conversationnels (Azure AI Foundry, Azure OpenAI, Copilot Studio), orchestration d'agents, intégration au SI (SharePoint, Dataverse, API métiers)
@@ -33,5 +37,4 @@ SUEZ · TotalEnergies · Groupe SNCF
 
 Disponible pour des missions de Tech Lead IA/Data, de conception d'agents IA et d'industrialisation de POC d'IA générative (Paris ou hybride).
 
-[Mon profil Malt](https://www.malt.fr/profile/zakariakhchiche)
-[LinkedIn](https://www.linkedin.com/in/zakariakhchiche)
+[Mon profil Malt](https://www.malt.fr/profile/zakariakhchiche) · [LinkedIn](https://www.linkedin.com/in/zakariakhchiche)
