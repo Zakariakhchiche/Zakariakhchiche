@@ -1,16 +1,36 @@
-## Hi there 👋
+# Zakaria Khchiche
 
-<!--
-**Zakariakhchiche/Zakariakhchiche** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Tech Lead Data & IA · Agents IA · Data Engineering
 
-Here are some ideas to get you started:
+J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en production** : fiables, sécurisées et aux coûts maîtrisés.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Ce que je fais
+
+- **Agents IA & IA générative** : conception d'agents et d'assistants conversationnels (Azure AI Foundry, Azure OpenAI, Copilot Studio), orchestration d'agents, intégration au SI (SharePoint, Dataverse, API métiers)
+- **Socle IA** : AI Gateway, routage multi-LLM (coût, latence, sensibilité des données), observabilité, évaluation, maîtrise des coûts
+- **Data Engineering** : pipelines Databricks, Spark, Airflow, Prefect, Lakehouse Delta, Denodo
+- **Cloud & DevOps** : Azure, AWS, Docker, Kubernetes, CI/CD
+- **Automatisation & BI** : Power Platform, Power Automate, Power BI
+
+## Références
+
+SUEZ · TotalEnergies · Groupe SNCF
+
+## Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
+![OpenAI](https://img.shields.io/badge/Azure_OpenAI-412991?logo=openai&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?logo=databricks&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apachespark&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)
+
+## Me contacter
+
+Disponible pour des missions de Tech Lead IA/Data, de conception d'agents IA et d'industrialisation de POC d'IA générative (Paris ou hybride).
+
+[Mon profil Malt](https://www.malt.fr/profile/zakariakhchiche)
