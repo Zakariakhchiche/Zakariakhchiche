@@ -57,3 +57,5 @@ Article : [3 bugs silencieux dans un framework d'agents IA open source](https://
 Disponible pour des missions de Tech Lead IA/Data, de conception d'agents IA et d'industrialisation de POC d'IA générative (Paris ou hybride).
 
 [Mon profil Malt](https://www.malt.fr/profile/zakariakhchiche) · [LinkedIn](https://www.linkedin.com/in/zakariakhchiche) · [Medium](https://medium.com/@ZKHCHICHE)
+
+proofseen-verification=d96e7a1370a2bb39f71a79b491795bb0
