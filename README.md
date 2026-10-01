@@ -28,6 +28,8 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 - RAG pgvector : filtres IN / NOT IN inopérants sur booléens et nombres → [PR #6698](https://github.com/ogx-ai/ogx/pull/6698) ✅ fusionnée
 - API Responses : tokens en cache et de raisonnement sous-comptés → [issue #6699](https://github.com/ogx-ai/ogx/issues/6699) ✅ résolue
 
+Article : [3 bugs silencieux dans un framework d'agents IA open source](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-un-framework-dagents-ia-open-source-10a86cd31dff) (FR) · [Three silent bugs in an open-source AI agent framework](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-an-open-source-ai-agent-framework-igd) (EN)
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
