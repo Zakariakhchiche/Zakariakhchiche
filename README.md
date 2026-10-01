@@ -16,6 +16,14 @@ J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en 
 - **Cloud & DevOps** : Azure, AWS, Docker, Kubernetes, CI/CD
 - **Automatisation & BI** : Power Platform, Power Automate, Power BI
 
+## Formations
+
+Formateur IA avec **Spar-x** (organisme certifié Qualiopi, formations finançables par votre OPCO), en sessions de 20 personnes maximum :
+
+- [Formation Copilot Studio : créer des agents IA en production](https://zakariakhchiche.github.io/formation-copilot-studio/)
+- [Formation IA générative en entreprise](https://zakariakhchiche.github.io/formation-ia-generative/)
+- [Kit AI Act article 4 gratuit](https://zakariakhchiche.github.io/kit-ai-act/) : diagnostic en 10 questions et registre des formations IA
+
 ## Références
 
 SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (Stime) · Volvo Group · SAUR
