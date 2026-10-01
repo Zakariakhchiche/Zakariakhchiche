@@ -22,11 +22,11 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 
 ## Contributions open source
 
-**OGX (ex-Llama Stack, Meta)** : audit du framework et correction de 3 bugs silencieux en production.
+**OGX (ex-Llama Stack, Meta)** : audit du framework et correction de 3 bugs silencieux en production. Les deux correctifs ont été **fusionnés par les mainteneurs** le 1er octobre 2026.
 
-- Recherche hybride Elasticsearch : paramètre RRF ignoré → [PR #6697](https://github.com/ogx-ai/ogx/pull/6697)
-- RAG pgvector : filtres IN / NOT IN inopérants sur booléens et nombres → [PR #6698](https://github.com/ogx-ai/ogx/pull/6698)
-- API Responses : tokens en cache et de raisonnement sous-comptés → [issue #6699](https://github.com/ogx-ai/ogx/issues/6699)
+- Recherche hybride Elasticsearch : paramètre RRF ignoré → [PR #6697](https://github.com/ogx-ai/ogx/pull/6697) ✅ fusionnée
+- RAG pgvector : filtres IN / NOT IN inopérants sur booléens et nombres → [PR #6698](https://github.com/ogx-ai/ogx/pull/6698) ✅ fusionnée
+- API Responses : tokens en cache et de raisonnement sous-comptés → [issue #6699](https://github.com/ogx-ai/ogx/issues/6699) ✅ résolue
 
 ## Stack
 
