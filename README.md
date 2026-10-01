@@ -20,6 +20,14 @@ J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en 
 
 SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (Stime) · Volvo Group · SAUR
 
+## Contributions open source
+
+**OGX (ex-Llama Stack, Meta)** : audit du framework et correction de 3 bugs silencieux en production.
+
+- Recherche hybride Elasticsearch : paramètre RRF ignoré → [PR #6697](https://github.com/ogx-ai/ogx/pull/6697)
+- RAG pgvector : filtres IN / NOT IN inopérants sur booléens et nombres → [PR #6698](https://github.com/ogx-ai/ogx/pull/6698)
+- API Responses : tokens en cache et de raisonnement sous-comptés → [issue #6699](https://github.com/ogx-ai/ogx/issues/6699)
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
