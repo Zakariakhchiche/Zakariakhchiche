@@ -27,6 +27,7 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 - Recherche hybride Elasticsearch : paramètre RRF ignoré → [PR #6697](https://github.com/ogx-ai/ogx/pull/6697) ✅ fusionnée
 - RAG pgvector : filtres IN / NOT IN inopérants sur booléens et nombres → [PR #6698](https://github.com/ogx-ai/ogx/pull/6698) ✅ fusionnée
 - API Responses : tokens en cache et de raisonnement sous-comptés → [issue #6699](https://github.com/ogx-ai/ogx/issues/6699) ✅ résolue
+- RAG Weaviate : réindexer un document créait des doublons au lieu de remplacer l'ancienne version → [PR #6705](https://github.com/ogx-ai/ogx/pull/6705) (en revue)
 
 Article : [3 bugs silencieux dans un framework d'agents IA open source](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-un-framework-dagents-ia-open-source-10a86cd31dff) (FR) · [Three silent bugs in an open-source AI agent framework](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-an-open-source-ai-agent-framework-igd) (EN)
 
