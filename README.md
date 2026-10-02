@@ -23,6 +23,8 @@ Formateur IA avec **Spar-x** (organisme certifié Qualiopi, formations finançab
 - [Formation Copilot Studio : créer des agents IA en production](https://zakariakhchiche.github.io/formation-copilot-studio/)
 - [Formation IA générative en entreprise](https://zakariakhchiche.github.io/formation-ia-generative/)
 - [Kit AI Act article 4 gratuit](https://zakariakhchiche.github.io/kit-ai-act/) : diagnostic en 10 questions et registre des formations IA
+Vidéos et podcast « Agents IA en production » : [youtube.com/@zakariakhchiche](https://www.youtube.com/@zakariakhchiche)
+
 
 ## Références
 
@@ -55,7 +57,7 @@ Article : [3 bugs silencieux dans un framework d'agents IA open source](https://
 ## Me contacter
 
 Disponible pour des missions de Tech Lead IA/Data, de conception d'agents IA et d'industrialisation de POC d'IA générative (Paris ou hybride).
-
+ · [YouTube](https://www.youtube.com/@zakariakhchiche)
 [Mon profil Malt](https://www.malt.fr/profile/zakariakhchiche) · [LinkedIn](https://www.linkedin.com/in/zakariakhchiche) · [Medium](https://medium.com/@ZKHCHICHE)
 
 proofseen-verification=d96e7a1370a2bb39f71a79b491795bb0
