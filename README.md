@@ -41,7 +41,7 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 
 Article : [3 bugs silencieux dans un framework d'agents IA open source](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-un-framework-dagents-ia-open-source-10a86cd31dff) (FR) · [Three silent bugs in an open-source AI agent framework](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-an-open-source-ai-agent-framework-igd) (EN)
 
-**Microsoft Copilot Studio × Jev (TypeSafe)** : agents Copilot Studio qui répondent sur un grand corpus documentaire uniquement quand un passage le justifie, et qui s'abstiennent sinon. Serveur MCP + connecteur Power Platform → [copilot-studio-jev](https://github.com/Zakariakhchiche/copilot-studio-jev) · exemple proposé au dépôt officiel Microsoft : [CopilotStudioSamples PR #539](https://github.com/microsoft/CopilotStudioSamples/pull/539) (brouillon)
+**Microsoft Copilot Studio × Jev (TypeSafe)** : agents Copilot Studio qui répondent sur un grand corpus documentaire uniquement quand un passage le justifie, et qui s'abstiennent sinon. Serveur MCP + connecteur Power Platform → [copilot-studio-jev](https://github.com/Zakariakhchiche/copilot-studio-jev) · exemple proposé au dépôt officiel Microsoft : [CopilotStudioSamples PR #539](https://github.com/microsoft/CopilotStudioSamples/pull/539) (en revue par les mainteneurs Microsoft)
 
 ## Stack
 
