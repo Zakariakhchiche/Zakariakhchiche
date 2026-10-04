@@ -43,6 +43,15 @@ Article : [3 bugs silencieux dans un framework d'agents IA open source](https://
 
 **Microsoft Copilot Studio × Jev (TypeSafe)** : agents Copilot Studio qui répondent sur un grand corpus documentaire uniquement quand un passage le justifie, et qui s'abstiennent sinon. Serveur MCP + connecteur Power Platform → [copilot-studio-jev](https://github.com/Zakariakhchiche/copilot-studio-jev) · exemple proposé au dépôt officiel Microsoft : [CopilotStudioSamples PR #539](https://github.com/microsoft/CopilotStudioSamples/pull/539) (en revue par les mainteneurs Microsoft)
 
+**Mistral AI** : audit de [mistral-common](https://github.com/mistralai/mistral-common) et du SDK Python [`mistralai`](https://github.com/mistralai/client-python), 3 bugs silencieux reproduits, corrigés et testés (en revue par les mainteneurs) :
+
+- Validateur : noms d'outils et identifiants d'appel terminés par un retour à la ligne acceptés → [PR #354](https://github.com/mistralai/mistral-common/pull/354) 🔍 en revue
+- `create_tool_call` : paramètres optionnels `Annotated[..., Field(...)] = défaut` rendus obligatoires → [issue #632](https://github.com/mistralai/client-python/issues/632), correctif prêt
+- Sorties structurées strictes : les champs `dict[str, T]` ne peuvent plus contenir aucune clé → [issue #633](https://github.com/mistralai/client-python/issues/633), correctif prêt
+- Aussi : tokenizers hors ligne ([PR #349](https://github.com/mistralai/mistral-common/pull/349)) et schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351))
+
+Article : [3 bugs silencieux dans les bibliothèques Python de Mistral AI](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-les-biblioth%C3%A8ques-python-de-mistral-ai-72d061df6aa7) (FR) · [Three silent bugs in Mistral AI's Python libraries](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-mistral-ais-python-libraries-1gf) (EN)
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
