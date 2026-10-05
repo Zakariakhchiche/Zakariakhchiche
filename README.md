@@ -16,6 +16,10 @@ J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en 
 - **Cloud & DevOps** : Azure, AWS, Docker, Kubernetes, CI/CD
 - **Automatisation & BI** : Power Platform, Power Automate, Power BI
 
+## Livre
+
+📘 **[Agents Copilot en production](https://github.com/Zakariakhchiche/agents-copilot-en-production)** : la stratégie Microsoft pour des agents IA fiables, gouvernés et sobres en coûts (PDF gratuit, 100 pages, octobre 2026). Cadrage et business case, conception, connaissances, évaluation, sécurité et AI Act, coût en crédits Copilot, un premier agent en 90 jours. [Page du livre](https://zakariakhchiche.github.io/livre/)
+
 ## Formations
 
 Formateur IA avec **Spar-x** (organisme certifié Qualiopi, formations finançables par votre OPCO), en sessions de 20 personnes maximum :
