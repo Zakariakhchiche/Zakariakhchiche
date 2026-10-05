@@ -50,7 +50,8 @@ Article : [3 bugs silencieux dans un framework d'agents IA open source](https://
 - Validateur : noms d'outils et identifiants d'appel terminés par un retour à la ligne acceptés → [PR #354](https://github.com/mistralai/mistral-common/pull/354) 🔍 en revue
 - `create_tool_call` : paramètres optionnels `Annotated[..., Field(...)] = défaut` rendus obligatoires → [issue #632](https://github.com/mistralai/client-python/issues/632), correctif prêt
 - Sorties structurées strictes : les champs `dict[str, T]` ne peuvent plus contenir aucune clé → [issue #633](https://github.com/mistralai/client-python/issues/633), correctif prêt
-- Aussi : tokenizers hors ligne ([PR #349](https://github.com/mistralai/mistral-common/pull/349)) et schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351))
+- Tokenizers hors ligne : `cache_dir` ignoré quand le Hub est injoignable → [PR #349](https://github.com/mistralai/mistral-common/pull/349) ✅ fusionnée par les mainteneurs de Mistral AI
+- Aussi : schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351)) 🔍 en revue
 
 Article : [3 bugs silencieux dans les bibliothèques Python de Mistral AI](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-les-biblioth%C3%A8ques-python-de-mistral-ai-72d061df6aa7) (FR) · [Three silent bugs in Mistral AI's Python libraries](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-mistral-ais-python-libraries-1gf) (EN)
 
