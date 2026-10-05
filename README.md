@@ -43,6 +43,8 @@ Article : [3 bugs silencieux dans un framework d'agents IA open source](https://
 
 **Microsoft Copilot Studio × Jev (TypeSafe)** : agents Copilot Studio qui répondent sur un grand corpus documentaire uniquement quand un passage le justifie, et qui s'abstiennent sinon. Serveur MCP + connecteur Power Platform → [copilot-studio-jev](https://github.com/Zakariakhchiche/copilot-studio-jev) · exemple proposé au dépôt officiel Microsoft : [CopilotStudioSamples PR #539](https://github.com/microsoft/CopilotStudioSamples/pull/539) (en revue par les mainteneurs Microsoft)
 
+**Copilot Studio : choisir les 15 extraits que l'agent lit** : recherche personnalisée via `OnKnowledgeRequested`, Azure AI Search filtré sur les droits d'accès, Jev qui ne garde que les passages qui répondent vraiment, et banc d'évaluation (recherche seule, classement sémantique natif, Jev) → [copilot-studio-knowledge-rerank](https://github.com/Zakariakhchiche/copilot-studio-knowledge-rerank)
+
 **Mistral AI** : audit de [mistral-common](https://github.com/mistralai/mistral-common) et du SDK Python [`mistralai`](https://github.com/mistralai/client-python), 3 bugs silencieux reproduits, corrigés et testés (en revue par les mainteneurs) :
 
 - Validateur : noms d'outils et identifiants d'appel terminés par un retour à la ligne acceptés → [PR #354](https://github.com/mistralai/mistral-common/pull/354) 🔍 en revue
