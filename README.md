@@ -36,6 +36,8 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 
 ## Contributions open source
 
+**Microsoft Agent Framework** : contributeur au framework d'agents officiel de Microsoft. Le connecteur TypeSafe (Jev) ignorait les variables de proxy (`HTTPS_PROXY`, `NO_PROXY`…) et ne pouvait pas joindre l'API derrière un proxy d'entreprise : correctif et tests sur l'en-tête réellement envoyé → [PR #8984](https://github.com/microsoft/agent-framework/pull/8984) ✅ fusionnée par l'équipe Microsoft le 6 octobre 2026
+
 **OGX (ex-Llama Stack, Meta)** : audit du framework et correction de 3 bugs silencieux en production. Les deux correctifs ont été **fusionnés par les mainteneurs** le 1er octobre 2026.
 
 - Recherche hybride Elasticsearch : paramètre RRF ignoré → [PR #6697](https://github.com/ogx-ai/ogx/pull/6697) ✅ fusionnée
