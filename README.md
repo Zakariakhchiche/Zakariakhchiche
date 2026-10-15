@@ -38,6 +38,10 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 
 **Microsoft Agent Framework** : contributeur au framework d'agents officiel de Microsoft. Le connecteur TypeSafe (Jev) ignorait les variables de proxy (`HTTPS_PROXY`, `NO_PROXY`…) et ne pouvait pas joindre l'API derrière un proxy d'entreprise : correctif et tests sur l'en-tête réellement envoyé → [PR #8984](https://github.com/microsoft/agent-framework/pull/8984) ✅ fusionnée par l'équipe Microsoft le 6 octobre 2026
 
+Deuxième correctif : en mode non streamé, les agents Azure AI Foundry perdaient la demande de consentement OAuth des outils (l'utilisateur ne recevait jamais le lien d'autorisation) → [PR #8976](https://github.com/microsoft/agent-framework/pull/8976) ✅ fusionnée par l'équipe Microsoft le 13 octobre 2026
+
+Jev 1.14 : prise en charge des images et des questions `Box` (localisation d'un élément dans une image) dans le connecteur TypeSafe → [PR #9411](https://github.com/microsoft/agent-framework/pull/9411) proposée, en attente de revue
+
 Article : [Microsoft Agent Framework derrière un proxy d'entreprise : le transport HTTP qui ignorait HTTPS_PROXY](https://medium.com/@ZKHCHICHE/microsoft-agent-framework-derri%C3%A8re-un-proxy-dentreprise-le-transport-http-qui-ignorait-41d6de99876b) (FR) · [Microsoft Agent Framework behind a corporate proxy: the HTTP transport that ignored HTTPS_PROXY](https://dev.to/zakaria_khchiche_490919ed/microsoft-agent-framework-behind-a-corporate-proxy-the-http-transport-that-ignored-httpsproxy-2od4) (EN)
 
 **OGX (ex-Llama Stack, Meta)** : audit du framework et correction de 3 bugs silencieux en production. Les deux correctifs ont été **fusionnés par les mainteneurs** le 1er octobre 2026.
