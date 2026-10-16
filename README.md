@@ -40,6 +40,8 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 
 Deuxième correctif : en mode non streamé, les agents Azure AI Foundry perdaient la demande de consentement OAuth des outils (l'utilisateur ne recevait jamais le lien d'autorisation) → [PR #8976](https://github.com/microsoft/agent-framework/pull/8976) ✅ fusionnée par l'équipe Microsoft le 13 octobre 2026
 
+Aussi approuvées par l'équipe Microsoft (12 octobre 2026), en attente de fusion : citations Anthropic perdues en streaming → [PR #8978](https://github.com/microsoft/agent-framework/pull/8978) ✅ approuvée · `allow_multiple_tool_calls` ignoré par le client Anthropic → [PR #8980](https://github.com/microsoft/agent-framework/pull/8980) ✅ approuvée · filtres null/présence Qdrant sur Qdrant 1.19 → [PR #8982](https://github.com/microsoft/agent-framework/pull/8982) 🔍 en revue
+
 Jev 1.14 : prise en charge des images et des questions `Box` (localisation d'un élément dans une image) dans le connecteur TypeSafe → [PR #9411](https://github.com/microsoft/agent-framework/pull/9411) proposée, en attente de revue
 
 Article : [Microsoft Agent Framework derrière un proxy d'entreprise : le transport HTTP qui ignorait HTTPS_PROXY](https://medium.com/@ZKHCHICHE/microsoft-agent-framework-derri%C3%A8re-un-proxy-dentreprise-le-transport-http-qui-ignorait-41d6de99876b) (FR) · [Microsoft Agent Framework behind a corporate proxy: the HTTP transport that ignored HTTPS_PROXY](https://dev.to/zakaria_khchiche_490919ed/microsoft-agent-framework-behind-a-corporate-proxy-the-http-transport-that-ignored-httpsproxy-2od4) (EN)
@@ -53,17 +55,24 @@ Article : [Microsoft Agent Framework derrière un proxy d'entreprise : le transp
 
 Article : [3 bugs silencieux dans un framework d'agents IA open source](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-un-framework-dagents-ia-open-source-10a86cd31dff) (FR) · [Three silent bugs in an open-source AI agent framework](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-an-open-source-ai-agent-framework-igd) (EN)
 
-**Microsoft Copilot Studio × Jev (TypeSafe)** : agents Copilot Studio qui répondent sur un grand corpus documentaire uniquement quand un passage le justifie, et qui s'abstiennent sinon. Serveur MCP + connecteur Power Platform → [copilot-studio-jev](https://github.com/Zakariakhchiche/copilot-studio-jev) · exemple proposé au dépôt officiel Microsoft : [CopilotStudioSamples PR #539](https://github.com/microsoft/CopilotStudioSamples/pull/539) (en revue par les mainteneurs Microsoft)
+**Thales · Fred** (plateforme open source d'agents IA de Thales) : audit des chemins de recherche RAG et d'ingestion, 4 bugs signalés ; 3 corrigés par les mainteneurs de Thales à partir des signalements :
+
+- pgvector : un filtre de métadonnées multi-valeurs n'appliquait que la première valeur → [issue #3002](https://github.com/ThalesGroup/fred/issues/3002) ✅ corrigée ([PR #3008](https://github.com/ThalesGroup/fred/pull/3008), 8 octobre 2026)
+- API compatible OpenAI `/v1/chat/completions` : réponse finale perdue quand elle n'était pas streamée → [issue #3003](https://github.com/ThalesGroup/fred/issues/3003) ✅ corrigée ([PR #3074](https://github.com/ThalesGroup/fred/pull/3074), 13 octobre 2026)
+- Ingestion texte : fichiers cp1252 en échec et accents supprimés → [issue #3004](https://github.com/ThalesGroup/fred/issues/3004) ✅ corrigée ([PR #3075](https://github.com/ThalesGroup/fred/pull/3075), 13 octobre 2026)
+- Chroma : recherche limitée à une bibliothèque sans résultats → [issue #3001](https://github.com/ThalesGroup/fred/issues/3001) ouverte
+
+**Microsoft Copilot Studio × Jev (TypeSafe)** : agents Copilot Studio qui répondent sur un grand corpus documentaire uniquement quand un passage le justifie, et qui s'abstiennent sinon. Serveur MCP + connecteur Power Platform → [copilot-studio-jev](https://github.com/Zakariakhchiche/copilot-studio-jev) · exemple proposé au dépôt officiel Microsoft : [CopilotStudioSamples PR #539](https://github.com/microsoft/CopilotStudioSamples/pull/539) (proposé, en attente de revue)
 
 **Copilot Studio : choisir les 15 extraits que l'agent lit** : recherche personnalisée via `OnKnowledgeRequested`, Azure AI Search filtré sur les droits d'accès, Jev qui ne garde que les passages qui répondent vraiment, et banc d'évaluation (recherche seule, classement sémantique natif, Jev) → [copilot-studio-knowledge-rerank](https://github.com/Zakariakhchiche/copilot-studio-knowledge-rerank)
 
-**Mistral AI** : audit de [mistral-common](https://github.com/mistralai/mistral-common) et du SDK Python [`mistralai`](https://github.com/mistralai/client-python), 3 bugs silencieux reproduits, corrigés et testés (en revue par les mainteneurs) :
+**Mistral AI** : audit de [mistral-common](https://github.com/mistralai/mistral-common) et du SDK Python [`mistralai`](https://github.com/mistralai/client-python), 3 bugs silencieux reproduits, corrigés et testés (proposés, en attente de revue) :
 
-- Validateur : noms d'outils et identifiants d'appel terminés par un retour à la ligne acceptés → [PR #354](https://github.com/mistralai/mistral-common/pull/354) 🔍 en revue
+- Validateur : noms d'outils et identifiants d'appel terminés par un retour à la ligne acceptés → [PR #354](https://github.com/mistralai/mistral-common/pull/354) ⏳ en attente de revue
 - `create_tool_call` : paramètres optionnels `Annotated[..., Field(...)] = défaut` rendus obligatoires → [issue #632](https://github.com/mistralai/client-python/issues/632), correctif prêt
 - Sorties structurées strictes : les champs `dict[str, T]` ne peuvent plus contenir aucune clé → [issue #633](https://github.com/mistralai/client-python/issues/633), correctif prêt
 - Tokenizers hors ligne : `cache_dir` ignoré quand le Hub est injoignable → [PR #349](https://github.com/mistralai/mistral-common/pull/349) ✅ fusionnée par les mainteneurs de Mistral AI
-- Aussi : schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351)) 🔍 en revue
+- Aussi : schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351)) ⏳ en attente de revue
 
 Article : [3 bugs silencieux dans les bibliothèques Python de Mistral AI](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-les-biblioth%C3%A8ques-python-de-mistral-ai-72d061df6aa7) (FR) · [Three silent bugs in Mistral AI's Python libraries](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-mistral-ais-python-libraries-1gf) (EN)
 
