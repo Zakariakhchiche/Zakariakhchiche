@@ -72,7 +72,9 @@ Article : [3 bugs silencieux dans un framework d'agents IA open source](https://
 - `create_tool_call` : paramètres optionnels `Annotated[..., Field(...)] = défaut` rendus obligatoires → [issue #632](https://github.com/mistralai/client-python/issues/632), correctif prêt
 - Sorties structurées strictes : les champs `dict[str, T]` ne peuvent plus contenir aucune clé → [issue #633](https://github.com/mistralai/client-python/issues/633), correctif prêt
 - Tokenizers hors ligne : `cache_dir` ignoré quand le Hub est injoignable → [PR #349](https://github.com/mistralai/mistral-common/pull/349) ✅ fusionnée par les mainteneurs de Mistral AI
-- Aussi : schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351)) ⏳ en attente de revue
+- Définitions d'outils OpenAI avec `"strict": null` (format par défaut du SDK OpenAI) rejetées par `Function.from_openai` → [PR #396](https://github.com/mistralai/mistral-common/pull/396) ✅ fusionnée par les mainteneurs de Mistral AI le 21 octobre 2026
+- `Tekkenizer.id_to_byte_piece` : anciennes politiques de jetons spéciaux en entier rejetées → [issue #395](https://github.com/mistralai/mistral-common/issues/395) ✅ corrigée par les mainteneurs de Mistral AI à partir du signalement ([PR #402](https://github.com/mistralai/mistral-common/pull/402), 21 octobre 2026)
+- Aussi : schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351)) et images en data URL dans `ImageChunk` ([PR #397](https://github.com/mistralai/mistral-common/pull/397)) ⏳ en attente de revue
 
 Article : [3 bugs silencieux dans les bibliothèques Python de Mistral AI](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-les-biblioth%C3%A8ques-python-de-mistral-ai-72d061df6aa7) (FR) · [Three silent bugs in Mistral AI's Python libraries](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-mistral-ais-python-libraries-1gf) (EN)
 
