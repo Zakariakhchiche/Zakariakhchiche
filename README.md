@@ -40,7 +40,9 @@ SUEZ · TotalEnergies · Groupe SNCF · La Banque Postale · Les Mousquetaires (
 
 Deuxième correctif : en mode non streamé, les agents Azure AI Foundry perdaient la demande de consentement OAuth des outils (l'utilisateur ne recevait jamais le lien d'autorisation) → [PR #8976](https://github.com/microsoft/agent-framework/pull/8976) ✅ fusionnée par l'équipe Microsoft le 13 octobre 2026
 
-Aussi approuvées par l'équipe Microsoft (12 octobre 2026), en attente de fusion : citations Anthropic perdues en streaming → [PR #8978](https://github.com/microsoft/agent-framework/pull/8978) ✅ approuvée · `allow_multiple_tool_calls` ignoré par le client Anthropic → [PR #8980](https://github.com/microsoft/agent-framework/pull/8980) ✅ approuvée · filtres null/présence Qdrant sur Qdrant 1.19 → [PR #8982](https://github.com/microsoft/agent-framework/pull/8982) 🔍 en revue
+Troisième correctif : le client Anthropic ignorait `allow_multiple_tool_calls=False` quand `tool_choice` n'était pas défini (appels d'outils en parallèle non désactivés) → [PR #8980](https://github.com/microsoft/agent-framework/pull/8980) ✅ fusionnée par l'équipe Microsoft le 23 octobre 2026
+
+Aussi : citations Anthropic perdues en streaming → [PR #8978](https://github.com/microsoft/agent-framework/pull/8978) ✅ approuvée par l'équipe Microsoft le 12 octobre 2026, en attente de fusion · filtres null/présence Qdrant sur Qdrant 1.19 → [PR #8982](https://github.com/microsoft/agent-framework/pull/8982) 🔍 en revue
 
 Jev 1.14 : prise en charge des images et des questions `Box` (localisation d'un élément dans une image) dans le connecteur TypeSafe → [PR #9411](https://github.com/microsoft/agent-framework/pull/9411) proposée, en attente de revue
 
