@@ -12,7 +12,7 @@ J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en 
 
 - **Agents IA & IA générative** : conception d'agents et d'assistants conversationnels (Azure AI Foundry, Azure OpenAI, Copilot Studio), orchestration d'agents, intégration au SI (SharePoint, Dataverse, API métiers)
 - **Socle IA** : AI Gateway, routage multi-LLM (coût, latence, sensibilité des données), observabilité, évaluation, maîtrise des coûts
-- **Data Engineering** : pipelines Databricks, Spark, Airflow, Prefect, Lakehouse Delta, Denodo
+- **Data Engineering** : pipelines Databricks, Spark, Airflow, Prefect, Lakehouse Delta, gouvernance Unity Catalog, Denodo
 - **Cloud & DevOps** : Azure, AWS, Docker, Kubernetes, CI/CD
 - **Automatisation & BI** : Power Platform, Power Automate, Power BI
 
