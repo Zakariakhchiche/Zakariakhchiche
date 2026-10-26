@@ -10,7 +10,7 @@ J'aide les grands comptes à transformer leurs cas d'usage IA en solutions **en 
 
 ## Ce que je fais
 
-- **Agents IA & IA générative** : conception d'agents et d'assistants conversationnels (Azure AI Foundry, Azure OpenAI, Copilot Studio), orchestration d'agents, intégration au SI (SharePoint, Dataverse, API métiers)
+- **Agents IA & IA générative** : conception d'agents et d'assistants conversationnels (Azure AI Foundry, Azure OpenAI, Copilot Studio, Mistral AI), orchestration d'agents, intégration au SI (SharePoint, Dataverse, API métiers)
 - **Socle IA** : AI Gateway, routage multi-LLM (coût, latence, sensibilité des données), observabilité, évaluation, maîtrise des coûts
 - **Data Engineering** : pipelines Databricks, Spark, Airflow, Prefect, Lakehouse Delta, gouvernance Unity Catalog, Denodo
 - **Cloud & DevOps** : Azure, AWS, Docker, Kubernetes, CI/CD
@@ -92,6 +92,7 @@ Article : [3 bugs silencieux dans les bibliothèques Python de Mistral AI](https
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)
+![Mistral AI](https://img.shields.io/badge/Mistral_AI-FA520F?logo=mistralai&logoColor=white)
 
 ## Me contacter
 
