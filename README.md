@@ -42,7 +42,7 @@ Deuxième correctif : en mode non streamé, les agents Azure AI Foundry perdaien
 
 Troisième correctif : le client Anthropic ignorait `allow_multiple_tool_calls=False` quand `tool_choice` n'était pas défini (appels d'outils en parallèle non désactivés) → [PR #8980](https://github.com/microsoft/agent-framework/pull/8980) ✅ fusionnée par l'équipe Microsoft le 23 octobre 2026
 
-Aussi : citations Anthropic perdues en streaming → [PR #8978](https://github.com/microsoft/agent-framework/pull/8978) ✅ approuvée par l'équipe Microsoft le 12 octobre 2026, en attente de fusion · filtres null/présence Qdrant sur Qdrant 1.19 → [PR #8982](https://github.com/microsoft/agent-framework/pull/8982) 🔍 en revue
+Aussi : citations Anthropic perdues en streaming → [PR #8978](https://github.com/microsoft/agent-framework/pull/8978) (fermée sans fusion le 30 octobre 2026) · filtres null/présence Qdrant sur Qdrant 1.19 → [PR #8982](https://github.com/microsoft/agent-framework/pull/8982) 🔍 en revue
 
 Jev 1.14 : prise en charge des images et des questions `Box` (localisation d'un élément dans une image) dans le connecteur TypeSafe → [PR #9411](https://github.com/microsoft/agent-framework/pull/9411) proposée, en attente de revue
 
@@ -76,7 +76,8 @@ Article : [3 bugs silencieux dans un framework d'agents IA open source](https://
 - Tokenizers hors ligne : `cache_dir` ignoré quand le Hub est injoignable → [PR #349](https://github.com/mistralai/mistral-common/pull/349) ✅ fusionnée par les mainteneurs de Mistral AI
 - Définitions d'outils OpenAI avec `"strict": null` (format par défaut du SDK OpenAI) rejetées par `Function.from_openai` → [PR #396](https://github.com/mistralai/mistral-common/pull/396) ✅ fusionnée par les mainteneurs de Mistral AI le 21 octobre 2026
 - `Tekkenizer.id_to_byte_piece` : anciennes politiques de jetons spéciaux en entier rejetées → [issue #395](https://github.com/mistralai/mistral-common/issues/395) ✅ corrigée par les mainteneurs de Mistral AI à partir du signalement ([PR #402](https://github.com/mistralai/mistral-common/pull/402), 21 octobre 2026)
-- Aussi : schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351)) et images en data URL dans `ImageChunk` ([PR #397](https://github.com/mistralai/mistral-common/pull/397)) ⏳ en attente de revue
+- Images en data URL dans `ImageChunk` : signalé ([PR #397](https://github.com/mistralai/mistral-common/pull/397)) ✅ corrigé par les mainteneurs de Mistral AI ([PR #405](https://github.com/mistralai/mistral-common/pull/405), 26 octobre 2026)
+- Aussi : schéma JSON vide ([PR #351](https://github.com/mistralai/mistral-common/pull/351)) ⏳ en attente de revue
 
 Article : [3 bugs silencieux dans les bibliothèques Python de Mistral AI](https://medium.com/@ZKHCHICHE/3-bugs-silencieux-dans-les-biblioth%C3%A8ques-python-de-mistral-ai-72d061df6aa7) (FR) · [Three silent bugs in Mistral AI's Python libraries](https://dev.to/zakaria_khchiche_490919ed/three-silent-bugs-in-mistral-ais-python-libraries-1gf) (EN)
 
