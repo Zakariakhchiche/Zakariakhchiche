@@ -42,7 +42,9 @@ Deuxième correctif : en mode non streamé, les agents Azure AI Foundry perdaien
 
 Troisième correctif : le client Anthropic ignorait `allow_multiple_tool_calls=False` quand `tool_choice` n'était pas défini (appels d'outils en parallèle non désactivés) → [PR #8980](https://github.com/microsoft/agent-framework/pull/8980) ✅ fusionnée par l'équipe Microsoft le 23 octobre 2026
 
-Aussi : citations Anthropic perdues en streaming → [PR #8978](https://github.com/microsoft/agent-framework/pull/8978) (fermée sans fusion le 30 octobre 2026) · filtres null/présence Qdrant sur Qdrant 1.19 → [PR #8982](https://github.com/microsoft/agent-framework/pull/8982) 🔍 en revue
+Quatrième correctif : le client Anthropic perdait les citations en streaming (`citations_delta` ignorées) → [PR #9898](https://github.com/microsoft/agent-framework/pull/9898) ✅ fusionnée par l'équipe Microsoft le 2 novembre 2026 (remplace la PR #8978).
+
+Aussi : filtres null/présence Qdrant sur Qdrant 1.19 → [PR #8982](https://github.com/microsoft/agent-framework/pull/8982) 🔍 en revue
 
 Jev 1.14 : prise en charge des images et des questions `Box` (localisation d'un élément dans une image) dans le connecteur TypeSafe → [PR #9411](https://github.com/microsoft/agent-framework/pull/9411) proposée, en attente de revue
 
